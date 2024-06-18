@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import Catalog from '../Catalog/Catalog'
 import Search from '../Search/Search'
 import ButtonIcon from './Button/ButtonIcon'
+import { callIcon } from '../img/icons/icons'
 
 const DATA = [
     {
       key: "1",
-      img: './src/components/MainPage/img/icons/call-icon.svg',
+      img: callIcon,
       hoverImg: './src/components/MainPage/img/icons/phone-icon-white.svg',
       clickImg: './src/components/MainPage/img/icons/phone-icon-white.svg'
     },
